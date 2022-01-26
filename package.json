@@ -9,6 +9,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "axios": "^0.25.0",
     "core-js": "^3.6.5",
     "vue": "^3.2.8",
     "vue-router": "^4.0.11",
@@ -33,12 +34,13 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.3.1",
     "mrm": "^3.0.10",
-    "sass": "^1.26.5",
-    "sass-loader": "^8.0.2"
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.4",
+    "vue-cli-plugin-element-plus": "0.0.13"
   },
   "config": {
     "commitizen": {
-      "path": "node_module/cz-customizable"
+      "path": "node_modules/cz-customizable"
     }
   },
   "husky": {
